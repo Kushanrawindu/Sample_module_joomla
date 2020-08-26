@@ -12,9 +12,16 @@
     {
 
         require_once (dirname(__FILE__).'/helper.php');
-        modSampleModuleHelper::sendMail($params);
+        $status = modSampleModuleHelper::sendMail($params);
 
-        $layout = $params->get('layout', 'form_success');
-        require JModuleHelper::getLayoutPath('mod_samplemodule', $layout);
+        if($status == true)
+        {
+            $layout = $params->get('layout', 'form_success');
+            require JModuleHelper::getLayoutPath('mod_samplemodule', $layout);
+        }
+        else
+        {
+            echo "Some fields are missing or invalid..";
+        }
     }
 ?>

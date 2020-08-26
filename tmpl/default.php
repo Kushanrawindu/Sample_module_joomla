@@ -14,7 +14,7 @@
                 <input type="email" id="email" name="email" style="width:95%;"/>
 
                 <label for="message">Message</label>
-                <textarea cols="30" rows="5" style="width:95%;"></textarea>
+                <textarea cols="30" rows="5" name="message" style="width:95%;"></textarea>
 
                 <button type="submit">Submit</button>
             </fieldset>
