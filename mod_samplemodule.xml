@@ -19,6 +19,11 @@
             <fieldset name="advanced">
                 <field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please Enter Module Class Suffix"/>
             </fieldset>
+
+            <fieldset name="basic">
+                <field name="pretext" type="textarea" label="Pre Text" description="Text to show before module" rows="5" cols="30" />
+                <field name="posttext" type="textarea" label="Post Text" description="Text to show after module" rows="5" cols="30" />
+            </fieldset>
         </fields>
     </config>
 </extension>
