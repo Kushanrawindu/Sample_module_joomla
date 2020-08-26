@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>My Sample Module</name>
+    <author>Kushan</author>
+    <version>0.0.1</version>
+    <description>Sample Module</description>
+    <files>
+        <filename>mod_samplemodule.xml</filename>
+        <filename modile="mod_samplemodule">mod_samplemodule.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/form_success.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+</extension>
