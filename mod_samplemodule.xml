@@ -13,4 +13,12 @@
         <filename>tmpl/form_success.php</filename>
         <filename>tmpl/index.html</filename>
     </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please Enter Module Class Suffix"/>
+            </fieldset>
+        </fields>
+    </config>
 </extension>
