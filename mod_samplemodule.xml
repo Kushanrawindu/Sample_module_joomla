@@ -6,7 +6,7 @@
     <description>Sample Module</description>
     <files>
         <filename>mod_samplemodule.xml</filename>
-        <filename modile="mod_samplemodule">mod_samplemodule.php</filename>
+        <filename module="mod_samplemodule">mod_samplemodule.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
