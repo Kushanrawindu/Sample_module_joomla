@@ -1,5 +1,6 @@
 <?php
     defined('_JEXEC') or die;
+    JFactory::getDocument()->addStylesheet('media/mod_samplemodule/style.css');
 ?>
 
 <div class="<?php echo $params->get('moduleclass_sfx');?>">
@@ -21,8 +22,8 @@
 
             <input type="hidden" name="check" value="1"/>
         </form> -->
-
-        <button type="submit">Read More</button>
+        <br/>
+        <button class="btn btn1" type="submit">Read More</button>
 
     <div><?php echo $params->get('posttext');?></div>
 </div>
